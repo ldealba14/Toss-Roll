@@ -73,7 +73,7 @@ header#main-head h2 {
 .multi_drop_menu a {
 	color:navy; 							/* text color*/
 	background-color:#eee; 					/* background color */
-	padding:.75em 4em ;
+	padding:.75em 3em ;
 	margin: 0 2em;					/* padding around link text */
 	border-width:3px; 						/* divider width */
 	border-color:transparent; 				/* divider color - can be 'transparent' */
