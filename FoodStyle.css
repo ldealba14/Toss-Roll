@@ -1,0 +1,259 @@
+body {margin: 0; padding: 0;}
+
+/* VISUAL STYLINGS - CHANGE AT WILL */
+/* add class 'vertical' to nav for vertical top level menu */
+/* font and colors*/
+
+p, h1, h3, h4, h5, h6 {margin-bottom: 1em;
+						}
+
+	@font-face{
+		font-family: 'BebasNeue Regular.otf';
+		src: url('fonts/BebasNeue Regular.otf');
+		}
+	@font-face{
+		font-family: 'KBSFEdge-HeavyItalic.ttf';
+		src: url('fonts/KBSFEdge-HeavyItalic.ttf');
+		}
+	@font-face{
+		font-family: 'Moriston-Regular.otf';
+		src: url('fonts/Moriston-Regular.otf');
+		}
+	@font-face{
+		font-family: 'BebasKai-Regular.otf';
+		src: url('fonts/BebasKai-Regular.otf');
+		}
+	@font-face{
+		font-family: 'JosefinSans-Regular.ttf';
+		src: url('fonts/JosefinSans-Regular.ttf');
+		}
+
+background-repeat:no-repeat;
+
+div#wrapper {
+	margin: 2% 2%;
+
+}
+
+header#main-head h1 {
+		text-align: center;
+		clear: float;
+		font-family: 'BebasKai-Regular.otf', sans-serif;
+		font-size: 6.25em;
+		color: black;
+		padding: 0;
+		margin: .5em;
+	}
+
+header#main-head h2 {
+		text-align: center;
+		clear: float;
+		font-family: 'BebasKai-Regular.otf', sans-serif;
+		font-size: 1.25em;
+		color: navy;
+	}
+
+.multi_drop_menu {
+	font:1em helvetica, arial, sans-serif; 	/* font color and size */
+	height:2.75em;
+	font-family: 'JosefinSans-Regular.ttf', sans-serif;
+	background-color: navy;
+	margin-bottom: 2em;
+	border-top: 4px solid #e6e6e6;
+	border-right: 4px solid #b1b1b1;
+	border-bottom: 4px solid #b1b1b1;
+	border-left: 4px solid #e6e6e6;
+	border-radius: 10px;
+	color: white;
+	line-height: 2em;
+
+	}
+
+
+.multi_drop_menu a {
+	color:navy; 							/* text color*/
+	background-color:#eee; 					/* background color */
+	padding:.75em 4em ;
+	margin: 0 2em;					/* padding around link text */
+	border-width:3px; 						/* divider width */
+	border-color:transparent; 				/* divider color - can be 'transparent' */
+	height: 1.25em;
+	}
+.multi_drop_menu a:hover {
+	color:#fff; 							/* hover text color */
+	background-color:#aaa;				/* hover background color */
+	}
+.multi_drop_menu li a:active {
+	background:#fff; 						/* b/g hilite when clicked */
+	color:#ccc;								/* text color hilite when clicked */
+	background-clip:padding-box;			/* prevents border hiliting */
+	}
+.multi_drop_menu li ul {width:.8em;} 		/* width of 2nd, 3rd level menus */
+.multi_drop_menu li li a {
+	border-right-style:none;
+	border-top-style:solid;
+	}
+.multi_drop_menu li li li a {
+	border-left-style:solid;
+}
+
+nav{ margin: 1em 0;}
+
+img {
+	width: 29%;
+	float: left;
+	padding: 1em;
+}
+
+
+h4 {
+	padding: 3%;
+	margin-left: 3%;
+	}
+
+a {
+	color: white;
+}
+
+a:hover {
+	font-size: larger;
+	color: white;
+}
+
+	section img  {height:150px;
+						border:1px solid blue; border-radius:5px;
+						padding:5px;}
+
+
+	section img:hover	{
+							border:1px solid black; background-color:white;
+							padding:10px;
+							-webkit-transform:translate(450, -240);
+							-moz-transform:translate(4);
+							-ms-transform:scale(2);
+							transform:scale(2);}
+
+
+	section img:hover	{
+							-webkit-box-shadow:4px 4px 10px rgba(0, 0, 0, 0.5);
+							-moz-box-shadow:4px 4px 10px rgba(0, 0, 0, 0.5);
+							-ms-box-shadow:4px 4px 10px rgba(0, 0, 0, 0.5);
+							box-shadow:4px 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+section p {padding: 0 2em 0 0;}
+/*ß
+	#leftmost img:hover	{-webkit-transform-origin:left 50%;
+						-moz-transform-origin:left 50%;
+						-ms-transform-origin:left 50%;
+						transform-origin:left 50%;}
+
+	#rightmost img:hover	{-webkit-transform-origin: right 50%;
+							-moz-transform-origin: right 50%;
+							-ms-transform-origin: right 50%;
+							transform-origin: right 50%;}
+*/
+
+footer {
+   /*position:absolute;*/
+   font-family: "BebasNeue Regular.otf", sans-serif;
+   background-color: navy;
+   clear: both;
+   text-align: center;
+   width:100%;
+   color: white;
+   padding: 1% 1% 1%;
+
+}
+
+section#content-wrapper{
+	background-color: white;
+	width: 100%;
+	Height: 100%;
+	padding: 0 1%;
+
+}
+
+div#main{
+
+	float: left;
+	width: 73%;
+	min-width: 450px;
+	max-width: 800px;
+	overflow-wrap: normal;
+	padding: 1% 1%;
+	font-family: 'Moriston-Regular.otf', sans-serif;
+	font-size: .8em;
+}
+
+
+div#secondary{
+
+	font-family: 'Moriston-Regular.otf', sans-serif;
+	color: #213439;
+	/*margin-left: 75%;*/
+	padding: 0 1%;
+	min-width: 150px;
+	max-width: 300px;
+	background-color: white;
+	float: right;
+
+}
+
+h2 {
+	margin-bottom: 1em;
+	font-size: 2.0em;
+	}
+
+li {
+	padding: 3%;
+	margin-left: 3%;
+	}
+
+div#secondary p {font-size: 0.8em;}
+
+
+
+/* "MECHANICAL" STYLINGS - ADJUST WITH CARE! */
+/* menu mechanics */
+/* level 1 */
+.multi_drop_menu * {margin:0; padding:0;
+					width: auto;
+					}
+.multi_drop_menu ul {float:left;} /* forces ul to enclose floated li elements */
+.multi_drop_menu li {
+	float:left; /* makes menu horizontal */
+	list-style-type:none; /* removes default bullets off lists */
+	position:relative; /* position context for child list */
+	}
+.multi_drop_menu li a {
+	display:block; /* makes link fill li */
+	border-right-style:solid; /* adds a right border on the links */
+	background-clip:padding-box; /* background only under padding, not border */
+	text-decoration:none; /* removes link underlining */
+	}
+.multi_drop_menu li:last-child a {
+	border-right-style:none;
+	}
+/* level 2*/
+.multi_drop_menu li ul {
+	width:1em;		/* width of 2nd, 3rd level menus */
+	display:none; /* hides levels 2, 3, etc. */
+	position:absolute; /* position relative to parent menu */
+	left:0; /* aligns left of sub-menu to parent */
+	top:100%; /* aligns to bottom of parent */
+	}
+.multi_drop_menu li:hover > ul {
+	display:block; /* displays menu when parent hovered */
+	}
+.multi_drop_menu li li {
+	position:relative; /* position context for child list */
+	float:none; /* kills inherited float - makes list stack */
+	}
+/* level 3 */
+.multi_drop_menu li li ul {
+	position:absolute; /* position relative to parent menu */
+	left:100%; /* aligns menu with right of parent */
+	top:0; /* aligns with parent menu choice top */
+	}
