@@ -36,39 +36,67 @@ div#wrapper {
 
 }
 
-.twitter-timeline {
+
+	header#main-head h1 {
+			text-align: center;
+			clear: float;
+			font-family: 'Blenny', sans-serif;
+			font-size: 2.25em;
+			color: #052125; /*dark blue*/
+			padding: 0em;
+			margin: 0em;
+		}
+
+		header#main-head p {
+				text-align: center;
+				clear: float;
+				font-family: 'Blenny', sans-serif;
+				font-size: 2.25em;
+				color: #89eab1;
+				padding: 0em;
+				margin: 0em;
+			}
+
+header#main-head{
+	background-color: white;
 
 }
 
-
-header#main-head h1 {
-		text-align: center;
-		clear: float;
-		font-family: 'Blenny', sans-serif;
-		font-size: 6.25em;
-		color: white;
-		padding: 0em;
-		margin: 0em;
-	}
-
-header#main-head{
-	background-color: #f50000;
-
+div#main ul {
+	line-height: .3em;
+	list-style-type: none;
 }
 
 
 header#main-head h2 {
 		text-align: center;
-		font-family: 'Coquette', sans-serif;
+		font-family: 'bc-alphapipe', sans-serif;
 		clear: float;
-		color: white;
+		color: #f50000;
+		padding-bottom: 1em;
+		font-size: 1em;
 	}
+
+
+	.button {
+  background-color: #ffb200;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f50000;
+}
 
 .multi_drop_menu {
 	font-family: "bc-alphapipe", sans-serif;
 	font-style: normal;
 	height:2.75em;
-	background-color: #ffb200; /*orange*/
+	background-color: #00b3ba; /*orange*/
 	margin-bottom: 2em;
 	border-top: 2px solid #e6e6e6;
 	border-right: 1px solid #b1b1b1;
@@ -83,10 +111,10 @@ header#main-head h2 {
 
 .multi_drop_menu a {
 	color:#f50000;
-	font-family: "bc-alphapipe", sans-serif;
+	/* font-family: "bc-alphapipe", sans-serif; */
 	font-style: normal;						/* text color*/
-	background-color:#ffb200; 					/* background color */
-	padding:.75em 2em ;
+	background-color:#00b3ba; 					/* background color */
+	padding:.75em 1.7em ;
 	margin: 0 2em;					/* padding around link text */
 	border-width:1px; 						/* divider width */
 	border-color:transparent; 				/* divider color - can be 'transparent' */
@@ -203,13 +231,13 @@ div#main{
 	font-family: 'JosefinSans-Regular', sans-serif;
 	font-size: 1.2em;
 	margin-left: 2em;
-	color: white;
+	color: #052125;
 	background-color: none;
 	line-height: auto;
 }
 
 div#main h2{
-	font-family: 'Coquette', sans-serif;
+	font-family: 'bc-alphapipe', sans-serif;
 }
 
 hr{
@@ -293,7 +321,7 @@ div#secondary{
 
 	font-family: 'JosefinSans', sans-serif;
 	color: #213439;
-	background-color: #00b3ba;
+	background-color: #00b3ba; /*teal*/
 	border-radius: 2em;
 	border-color: red;
 	margin-right: 1.5em;
