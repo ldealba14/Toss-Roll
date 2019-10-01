@@ -38,13 +38,20 @@ div#wrapper {
 
 
 	header#main-head img {
-			text-align: center;
 			clear: float;
-			font-family: 'Blenny', sans-serif;
-			font-size: 2.25em;
-			color: #052125; /*dark blue*/
 			padding: 0em;
-			margin: 0em;
+			margin: 2em 2em;
+			width: 25%;
+		}
+
+
+	header#main-head h2 {
+			text-align: center;
+			font-family: 'bc-alphapipe', sans-serif;
+			clear: float;
+			color: #017D8D;  /*light blue*/
+			padding-bottom: 0em;
+			font-size: 1em;
 		}
 
 		header#main-head p {
@@ -71,15 +78,6 @@ div#main ul {
 }
 
 
-header#main-head h2 {
-		text-align: center;
-		font-family: 'bc-alphapipe', sans-serif;
-		clear: float;
-		color: #017D8D;  /*light blue*/
-		padding-bottom: 1em;
-		font-size: 1em;
-	}
-
 
 	.button {
   background-color: #ffb200;
@@ -98,13 +96,12 @@ header#main-head h2 {
 .multi_drop_menu {
 	font-family: "bc-alphapipe", sans-serif;
 	font-style: normal;
-	height:2.75em;
-	background-color: #00b3ba; /*orange*/
+	height:3em;
+	background-color: #003F43; /*orange*/
 	margin-bottom: 2em;
-	border-top: 2px solid #e6e6e6;
-	border-right: 1px solid #b1b1b1;
-	border-bottom: 4px solid #ffb200;
-	border-left: 2px solid #e6e6e6;
+	margin-top: 4em;
+	border-right: 1px solid #FF5D2A;
+	border-bottom: 4px solid #FF5D2A;
 	border-radius: 5px;
 	color: white;
 	line-height: 2em;
@@ -119,21 +116,21 @@ header#main-head h2 {
 		}
 
 .multi_drop_menu a {
-	color:#f50000;
+	color:#003F43;  /*dark blue*/
 	/* font-family: "bc-alphapipe", sans-serif; */
 	font-style: normal;						/* text color*/
-	background-color:#00b3ba; 					/* background color */
-	padding:.75em 1.7em ;
-	margin: 0 2em;					/* padding around link text */
+	background-color:#B4E6A7; 					/* light green */
+	padding:1em 1.7em ;
+	margin: 0 2em 4em 2em;					/* padding around link text */
 	border-width:1px; 						/* divider width */
 	border-color:transparent; 				/* divider color - can be 'transparent' */
 	height: 1em;
 	font-size: 1.2em;
 	}
 .multi_drop_menu a:hover {
-	color:#00b3ba; 							/* hover text color */
-	background-color:#ffb200;				/* hover background color */
-	border-color: #00b3ba;
+	color:#017D8D; 							/* hover text color, light blue */
+	background-color:#B4E6A7;				/* hover background color */
+	border-color: #FF5D2A; /*red*/
 	border-width: medium;
 	}
 .multi_drop_menu li a:active {
@@ -248,7 +245,7 @@ section p {padding: 0 2em 0 0;
 footer {
    /*position:absolute;*/
    font-family: "BebasNeue Regular.otf", sans-serif;
-   background-color: #ffb200;
+   background-color: #FF5D2A; /*red*/
    clear: both;
    text-align: center;
    width:100%;
@@ -273,7 +270,8 @@ div#main{
 	max-width: 800px;
 	overflow-wrap: normal;
 	padding: 1% 1%;
-	font-family: 'JosefinSans-Regular', sans-serif;
+	font-family: 'source-sans-pro', sans-serif;
+	font-style: light;
 	font-size: 1.2em;
 	margin-left: 2em;
 	color: #052125;
@@ -283,6 +281,7 @@ div#main{
 
 div#main h2{
 	font-family: 'bc-alphapipe', sans-serif;
+	color: #017D8D;   /* light blue*/
 }
 
 hr{
@@ -366,16 +365,17 @@ div#secondary{
 
 	font-family: 'JosefinSans', sans-serif;
 	color: #213439;
-	background-color: #00b3ba; /*teal*/
+	background-color: #017D8D; /*lighter blue*/
 	border-radius: 2em;
 	border-color: red;
 	margin-right: 1.5em;
 	margin-bottom: 1.5em;
 	/*margin-left: 75%;*/
-	padding: 0 1%;
+	padding: 10px 4px;
 	min-width: 150px;
-	max-width: 300px;
+	max-width: 400px;
 	float: right;
+	height: 600px;
 
 }
 
