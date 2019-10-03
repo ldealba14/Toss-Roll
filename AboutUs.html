@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="FoodStyle.css"/>
 <link rel="stylesheet" href="https://use.typekit.net/akp5ubi.css">
 <link rel="stylesheet" href="https://use.typekit.net/akp5ubi.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
 <!-- Add icon library -->
@@ -14,33 +15,36 @@
 </head>
 <body background= "background2.png">
 	<div id="wrapper">
-	<header id="main-head">
-		<img src="Logo.png" alt="Main Logo" style="float:left">
-		<h2>keep rollin'</h2>
-	</header>  <!-- main-head -->
 
-    <nav class="multi_drop_menu">
-    	<ul>
-            <li>
-							<a href="index.html">Home</a>
+    <nav class="navbar navbar-expand-lg">
+			<a class="navbar-brand" href="#">
+				<img src="Logo.png" alt="Main Logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+    		<ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
 						</li>
-            <li>
-							<a href="AboutUs.html">About Us</a>
+            <li class="nav-item  active">
+							<a class="nav-link" href="AboutUs.html">About Us <span class="sr-only">(current)</span></a>
 						</li>
-            <li>
-							<a href="Menu.html">Menu</a>
+            <li class="nav-item">
+							<a class="nav-link" href="Menu.html">Menu</a>
 						</li>
-            <li>
-							<a href="OrderNow.html">Order Now</a>
+            <li class="nav-item">
+							<a class="nav-link" href="OrderNow.html">Order Now</a>
 						</li>
-            <li>
-							<a href="ContactUs.html">Find Us</a>
+            <li class="nav-item">
+							<a class="nav-link" href="ContactUs.html">Find Us</a>
 						</li>
-						<li>
-							<a href="#" class="fa fa-facebook"></a>
+						<li class="nav-item">
+							<a class="nav-link" href="#" class="fa fa-facebook"></a>
 						</li>
-						<li>
-							<a href="#" class="fa fa-twitter"></a>
+						<li class="nav-item">
+							<a class="nav-link" href="#" class="fa fa-twitter"></a>
 						</li>
       </ul>
 	</nav>
@@ -54,11 +58,33 @@
 
         <p id="p1"> We are a company founded in 2019 with a passion for healthy and delicious foods. As college students ourselves, we understand that food on campus needs to be quick. We have created an expedited process that gets you your food right away. Order it on the app, and get on with your day!	</p>
 
-		</div>  <!-- main -->
+
+		<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="foods1.jpg" alt="food in bowls" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="salad1.jpg" alt="salad" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="prep1.jpg" alt="food prep" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+</div>  <!-- main -->
 
 		<div id="secondary">
 			<header id="secondary-head">
-				<h3>About Our Town</h3>
+				<h3>Find Us Online</h3>
 			</header>  <!-- secondary-head -->
 
 			<a class="twitter-timeline" href="https://twitter.com/toss_and_roll?ref_src=twsrc%5Etfw">Tweets by toss_and_roll</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
