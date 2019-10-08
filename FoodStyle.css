@@ -101,15 +101,29 @@ div#main ul {
 
 .nav-item a{
 	color: #003F43;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
 }
-
 
 
 .navbar-toggle {
 	background-color: black;
-
 }
 
+.navbar-toggler-icon{
+	color: black;
+	background-color: blue;
+	height: 2.5em;
+	width: 2.5em;
+}
+
+.navbar-toggler button{
+		width: 3em;
+		height: 5em;
+		color: black;
+
+}
 
 
 
@@ -145,27 +159,6 @@ a {
 	color: white;
 }
 
-a:hover {
-	font-size: larger;
-	color: white;
-}
-
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
 
 div.desc {
   padding: 15px;
@@ -173,26 +166,11 @@ div.desc {
 	float: left;
 }
 
-	section img  {height:150px;
-						border:1px solid blue; border-radius:5px;
+	section img  {
+						width: 85%;
+						height: 85%;
+						border:10px solid #B4E6A7; border-radius:5px;
 						padding:5px;}
-
-
-	section img:hover	{
-							border:1px solid black; background-color:white;
-							padding:10px;
-							-webkit-transform:translate(450, -240);
-							-moz-transform:translate(4);
-							-ms-transform:scale(2);
-							transform:scale(2);}
-
-
-	section img:hover	{
-							-webkit-box-shadow:4px 4px 10px rgba(0, 0, 0, 0.5);
-							-moz-box-shadow:4px 4px 10px rgba(0, 0, 0, 0.5);
-							-ms-box-shadow:4px 4px 10px rgba(0, 0, 0, 0.5);
-							box-shadow:4px 4px 10px rgba(0, 0, 0, 0.5);
-
 }
 
 section p {padding: 0 2em 0 0;
@@ -212,7 +190,7 @@ section p {padding: 0 2em 0 0;
 footer {
    /*position:absolute;*/
    font-family: "BebasNeue Regular.otf", sans-serif;
-   background-color: #FF5D2A; /*red*/
+   background-color: #003F43; /*dark blue*/
    clear: both;
    text-align: center;
    width:100%;
@@ -249,6 +227,7 @@ div#main{
 div#main h2{
 	font-family: 'bc-alphapipe', sans-serif;
 	color: #017D8D;   /* light blue*/
+	font-size: 3em;
 }
 
 hr{
