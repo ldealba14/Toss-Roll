@@ -1,4 +1,4 @@
-body {margin: 0; padding: 0;}
+body {margin: 0; padding: 0; }
 
 
 /* VISUAL STYLINGS - CHANGE AT WILL */
@@ -33,6 +33,7 @@ background-repeat:no-repeat;
 
 div#wrapper {
 	margin: 2% 2%;
+	background-color: #017D8D; /*light blue*/
 
 }
 
@@ -81,43 +82,15 @@ form{
 	float:none;
 }
 
-.navbar {
-	background-color: white;
-	margin-top: 0em;
-	height: 8em;
-	border-bottom: 1.5em solid #c0dfae;
-}
-
-.navbar-brand img{
-	width: 75%;
-}
-
-.navbar-collapse {
-	background-color: white;
-
-}
-
-.navbar-nav {
-	font-family: "bc-alphapipe", sans-serif;
-	color: #003F43; /*dark blue*/
-
-}
-
-.nav-item a{
-	color: #003F43;
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
 
 .navbar-toggle {
 	background-color: black;
 }
 
+
 .navbar-toggler-icon{
 	color: black;
-	background-color: blue;
+	background-color: #017D8D;
 	height: 2.5em;
 	width: 2.5em;
 }
@@ -129,7 +102,41 @@ form{
 
 }
 
+.navbar {
+	background-color: #017D8D; /*light blue*/
+	margin-top: 0em;
+	height: 8em;
+	border-bottom: 1.5em solid #c0dfae;
+}
 
+.navbar-brand img{
+	width: 75%;
+}
+
+.navbar-collapse {
+	background-color: #017D8D; /*light blue*/
+
+}
+
+.navbar-nav {
+	font-family: "bc-alphapipe", sans-serif;
+	color: #003F43; /*dark blue*/
+	background-color: #017D8D; /*light blue*/
+
+}
+
+
+
+.nav-item a{
+	color: white;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+nav .navbar.navbar-expand-lg.navbar-inverse {
+	background-color: #017D8D; /*light blue*/
+}
 
 	.button {
   background-color: #f2693d;
@@ -327,7 +334,7 @@ hr{
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: white;
+  /* background: white; */
 }
 
 ul {
