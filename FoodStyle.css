@@ -83,6 +83,7 @@ form{
 }
 
 
+
 .navbar-toggle {
 	background-color: black;
 }
@@ -348,6 +349,22 @@ ul {
 
 }
 
+.order2 {
+	float:left;
+}
+
+.order3 {
+	float:left;
+}
+
+.order4 {
+	float:left;
+}
+
+.order5 {
+	float:left;
+}
+
 div#secondary{
 
 	font-family: 'source-sans-pro', sans-serif;
@@ -363,7 +380,8 @@ div#secondary{
 	min-width: 150px;
 	max-width: 400px;
 	float: right;
-	height: 600px;
+	height: 700px;
+	overflow: scroll;
 
 }
 
